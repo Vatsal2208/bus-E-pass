@@ -1,0 +1,82 @@
+*
+{
+
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url("/img/vintage-dark-blue-2xrl3q1w6992hsna.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+.rem
+{
+    margin-left: 17%;
+    margin-top: 5%;
+}
+.Rem
+{
+    font-size: large;
+    color:#F6C6EA;
+}
+
+
+#bot{
+    background-color: #0d6efd;
+    color: white;
+    font-size: 20px;
+}
+.nav-item{
+    font-size: larger;
+}
+button:hover
+{
+    transition: 0.4s ease-in-out;
+}
+#btn:hover
+{
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+input, textarea {
+    background-color:rgba(0, 0, 0, 0.2);
+  }
+  .nav1
+  {
+      background-color:rgba(  0, 0, 0, 0.3);
+      margin-bottom: 5%;
+  }
+  .dov1
+  {
+      margin-left: 60%;
+      text-decoration: none;
+      color: white;
+  }
+  
+  .dov
+  {
+      text-decoration: none;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 90%;
+      font-weight: bold;
+      color: white;
+      margin: 2%;
+  }
+  span
+  {
+      color: white;
+      font-weight: bold;
+      font-size: xx-large;
+  }
+  .info
+{
+    border-radius: 8px;
+    height: 50%;
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+    padding-left: 6%;
+    color: white;
+}

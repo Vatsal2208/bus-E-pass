@@ -1,0 +1,81 @@
+.bg
+{
+    border:none;
+    width: 30%;
+    padding-bottom: 3%;
+    border-radius: 16px;
+    margin-left: 37%;
+    margin-top: 10%;
+    background-color: rgba(  0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+body{
+    background-image: url("/img/vintage-dark-blue-2xrl3q1w6992hsna.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.button
+{
+    margin-left:30%;
+    margin-top:10px;
+    font-size: larger;
+    font-weight: 800;
+    border:1px solid black;
+    border-radius: 8px;
+    background-color: #0d6efd;
+    width: 50%;
+}
+
+.heading
+{
+    color: #0d6efd;
+    margin-left: 18%;
+    margin-bottom: 10%;
+}
+.email{
+    margin-left: 10%;
+        font-size: medium;
+        color: #CEE5D0;
+        font-weight: 500;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-radius: 8px;
+        box-sizing: border-box;
+        outline: none;
+    
+}
+input
+{
+    color: #CEE5D0;
+    margin-left: 5%;
+    font-size: medium;
+    background-color: rgba(  0, 0, 0, 0.1);
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+}
+input[type="email"]
+{
+    text-align: center;
+    width: 60%;
+}
+input[type="email"]:focus
+{
+    
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px dodgerblue;
+}
+button:focus
+{
+    border-color: #0d6efd;
+    box-shadow: 0 0 20px #0d6efd;
+}
+input[type="email"]::placeholder
+{
+    text-align: center;
+}
+
+

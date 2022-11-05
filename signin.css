@@ -1,0 +1,97 @@
+.bg
+{
+    border:none;
+    width: 30%;
+    padding-bottom: 3%;
+    border-radius: 16px;
+    margin-left: 37%;
+    margin-top: 10%;
+    background-color: rgba(  0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+body{
+    background-image: url("/img/vintage-dark-blue-2xrl3q1w6992hsna.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+.button
+{
+        margin-left:30%;
+        margin-top:10px;
+        font-size: larger;
+        font-weight: 800;
+        border:1px solid black;
+        border-radius: 8px;
+        background-color: #0d6efd;
+        width: 50%;
+}
+
+a
+{
+    text-decoration: none;
+}
+.heading
+{
+    color: #0d6efd;
+    margin-left: 18%;
+    margin-bottom: 10%;
+}
+.username,.Password{
+    margin-left: 10%;
+        font-size: larger;
+        color: #CEE5D0;
+        font-weight: 500;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-radius: 8px;
+        box-sizing: border-box;
+        outline: none;
+    
+}
+input
+{
+    color: #CEE5D0;
+    margin-left: 5%;
+    font-size: medium;
+    background-color: rgba(  0, 0, 0, 0.1);
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline: none;
+}
+input[type="password"]:focus
+{
+    border-color: dodgerblue;
+    box-shadow: 0 0 19px dodgerblue;
+}
+input[type="password"]
+{
+    width: 35.5%;
+}
+input[type="username"]
+{
+    width: 53.2%;
+}
+input[type="email"]
+{
+    width: 65%;
+}
+input[type="username"]:focus,input[type="email"]:focus
+{
+    
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px dodgerblue;
+}
+button:focus
+{
+    border-color: #0d6efd;
+    box-shadow: 0 0 20px #0d6efd;
+}
+input[type="username"]::placeholder,input[type="password"]::placeholder,input[type="email"]::placeholder
+{
+    text-align: center;
+}
+
